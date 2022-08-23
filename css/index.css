@@ -1,0 +1,199 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  background-color: #e5e5e5;
+  font-weight: 600;
+}
+
+/*===================
+    Typography
+  ===================*/
+
+h1,
+h2 {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.25rem;
+  font-style: italic;
+  margin-bottom: 37px;
+}
+h2 {
+  color: #f8f8f8;
+  font-size: 2rem;
+  margin: 0;
+}
+
+p {
+  color: #e1e1e1;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0.291em 0 0.667em;
+}
+
+.main-icon {
+  max-width: 34px;
+}
+
+/*===================
+    Layout
+  ===================*/
+
+#tindog {
+  width: 550px;
+  margin: 10px auto 0;
+  background-image: linear-gradient(#fff, #f6f7fb);
+}
+
+.tindog-ht {
+  height: 973px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25em 1.08em;
+}
+
+.icon-avatar {
+  order: -1;
+}
+.logo {
+  max-width: 84px;
+}
+
+/* Main Page*/
+
+#main {
+  margin: 0 auto;
+  padding: 113px 0 0 0;
+  width: 534px;
+  height: 874px;
+  background-image: linear-gradient(#ffedf5, #c7cbf4);
+  border: 3px solid #cecece;
+  border-radius: 15px;
+}
+
+.featured-info {
+  text-align: center;
+  color: #000;
+}
+.featured-image {
+  max-width: 426px;
+  display: block;
+  margin: 0 auto 72px;
+}
+
+.featured-desc {
+  max-width: 341px;
+  margin: 0 auto 102px;
+  font-weight: 600;
+  color: inherit;
+}
+
+button {
+  display: block;
+  outline: none;
+  font-size: 1.5rem;
+  font-weight: inherit;
+  padding: 1em 1.75em;
+  margin: 0 auto;
+  background-color: #26ed8d;
+  border: 2px solid #1cbd83;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+button:hover {
+  background-color: #fdfbf7;
+  border-color: #1a1a1a;
+}
+
+/* profile page*/
+.tindog-profile {
+  position: relative;
+  margin: 0 auto;
+  width: 534px;
+  min-height: 751px;
+}
+
+.badge {
+  position: absolute;
+  top: 7.5%;
+  left: 24px;
+  width: 233px;
+  transform: rotate(-30deg);
+}
+
+.tindog-avatar {
+  width: 100%;
+  border-radius: 15px;
+}
+.tindog-profile-desc {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 12px;
+  letter-spacing: 1px;
+}
+
+.swipe-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 1.5em 0;
+}
+
+.btn {
+  width: 91px;
+  height: 91px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 10px 20px #e9e9ea;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.btn-reject:hover {
+  background-color: #ffe7ef;
+}
+
+.btn-like:hover {
+  background-color: #dbfff4;
+}
+
+/* end page*/
+.end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 534px;
+  min-height: 751px;
+  border: 3px solid #cecece;
+  border-radius: 15px;
+  line-height: 23px;
+}
+
+.end-img {
+  margin-bottom: 1.5625em;
+}
+
+.end-desc {
+  color: #706e6e;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
