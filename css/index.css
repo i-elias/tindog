@@ -103,6 +103,7 @@ button {
   outline: none;
   font-size: 1.5rem;
   font-weight: inherit;
+  font-family: inherit;
   padding: 1em 1.75em;
   margin: 0 auto;
   background-color: #26ed8d;
